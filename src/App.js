@@ -19,7 +19,9 @@ class App extends React.Component {
       );
       return (
          <div className="App ">
+            <h1 className="h1">Robots Rolodex</h1>
             <input
+               className="pa3 mb4 mt2"
                type="search"
                placeholder="Search mosters.."
                onChange={(e) => this.setState({ searchField: e.target.value })}
