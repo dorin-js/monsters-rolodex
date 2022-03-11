@@ -9,8 +9,9 @@ body {
       rgba(24, 157, 113, 1) 49%,
       rgba(252, 176, 69, 1) 100%
    );
-   background-repeat: no-repeat;
    background-size: cover;
+   height: 100%;
+   width: 100%;
 }
 .h1 {
    font-family: "SF Alien Encounters", sans-serif;
